@@ -1,0 +1,44 @@
+/*
+ * Plugin Name: Magic Liquidizer Responsive Table
+ * Plugin URI: http://www.innovedesigns.com/wordpress/magic-liquidizer-responsive-table-rwd-you-must-have-wp-plugin/
+ * Author: Elvin Deza
+ * Description: A simple and lightweight plugin that converts HTML table into responsive. After activation, go to Dashboard > Appearance > Magic Liquidizer Responsive Table.
+* Version: 1.0.5
+* Tags: responsive, fluid
+* Author URI: http://innovedesigns.com/author/esstat17
+*/ 
+
+/*	Responsive Table Import ---------- */
+.ml-table {
+	left: 0 !important;
+	margin-left: 0 !important;
+	max-width: 100% !important;
+	min-height: 1px !important;
+	min-width: inherit !important;
+	padding: 5px;
+	right: 0 !important;
+	width: 98.8% !important;
+}
+
+.ml-responsive-table dt { 
+	background-color: transparent;
+	clear: both;
+	font-weight: bold;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+}
+
+.ml-responsive-table dd {
+	clear: both;
+}
+
+.ml-responsive-table dl dd:nth-of-type(odd){ background:transparent; }
+.ml-responsive-table dl dt:nth-of-type(even){ background:transparent; }
+
+.ml-responsive-table .ml-grid {
+	border-bottom: 1px solid #E9E9E9;
+	border-top: 1px solid #E9E9E9;
+	margin-bottom: 1%;
+	margin-left: 0;
+	margin-right: 0;
+}
