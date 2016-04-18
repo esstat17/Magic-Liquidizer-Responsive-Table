@@ -3,8 +3,8 @@ Contributors: esstat17
 Donate link: http://www.innovedesigns.com/wordpress/magic-liquidizer-responsive-table-rwd-you-must-have-wp-plugin/
 Tags: responsive, table, fluid, mobile screens
 Requires at least: 3.0.1
-Tested up to: 3.9
-Stable tag: 1.0.6
+Tested up to: 4.4
+Stable tag: 1.0.7
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -41,6 +41,7 @@ You can use Chrome Inspector or Firefox Firebug Extension to inspect element. Bu
 
 = How to make tables in two columns =
 It's very simple, just add these CSS lines to your stylesheet
+`
 .ml-responsive-table dt.ml-title {
      clear: none;
      float: left;
@@ -51,6 +52,7 @@ It's very simple, just add these CSS lines to your stylesheet
      float: left;
      width: 45% !important;
 }
+`
 
 == Screenshots ==
 1. How does your Table look like BEFORE. screenshot-1.png
@@ -58,6 +60,11 @@ It's very simple, just add these CSS lines to your stylesheet
 3. This screenshot was taken from our DEMO page AFTER installation. Client-side screenshot. screenshot-3.png
 
 == Changelog ==
+
+= 1.0.7 - 04/11/2016 =
+* - [Added] Internationalizing (text domain)
+* - [Modified] Simplifying Codes
+* - [Updated] Actions and Filters Hooks
 
 = 1.0.6 - 08/29/2014 =
 * - [Added] Magic Liquidizer Responsive Navigationbar Compatibility
@@ -94,6 +101,11 @@ It's very simple, just add these CSS lines to your stylesheet
 * Initial Released Date
 
 == Upgrade Notice ==
+= 1.0.7 - 04/11/2016 =
+* - [Added] Internationalizing (text domain)
+* - [Modified] Simplifying Codes
+* - [Updated] Actions and Filters Hooks
+
 = 1.0.6 - 08/29/2014 =
 * - [Added] Magic Liquidizer Responsive Navigationbar Compatibility
 
